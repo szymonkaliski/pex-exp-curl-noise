@@ -1,0 +1,8 @@
+# OSX
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Dist files, for now, will look into github pages
+dist/

@@ -1,0 +1,31 @@
+{
+  "name": "CurlNoise3D",
+  "version": "0.0.1",
+  "description": "3D Curl Noise in Pex / WebGL.",
+  "scripts": {
+    "start": "plask app.js",
+    "web": "beefy app.js 3000 -- -i plask -g brfs"
+  },
+  "homepage": "https://github.com/szymonkaliski/pex-exp-curl-noise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szymonkaliski/pex-exp-curl-noise"
+  },
+  "main": "app.js",
+  "author": "Szymon Kaliski <contact@treesmovethemost.com>",
+  "license": "ISC",
+  "dependencies": {
+    "beefy": "^2.1.3",
+    "brfs": "^1.4.0",
+    "browserify": "^9.0.3",
+    "perlin-simplex": "0.0.2",
+    "pex-color": "^0.4.0",
+    "pex-geom": "^0.11.1",
+    "pex-glu": "^0.2.3",
+    "pex-gui": "^0.4.0",
+    "pex-materials": "^0.1.1",
+    "pex-random": "^0.2.1",
+    "pex-sys": "^0.2.1",
+    "seedrandom": "^2.3.11"
+  }
+}
