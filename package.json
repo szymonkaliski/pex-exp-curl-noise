@@ -4,7 +4,8 @@
   "description": "3D Curl Noise in Pex / WebGL.",
   "scripts": {
     "start": "plask app.js",
-    "web": "beefy app.js 3000 -- -i plask -g brfs"
+    "web": "beefy app.js 3000 -- -i plask -g brfs",
+    "dist": "browserify app.js -i plask -g brfs > ./app.web.js"
   },
   "homepage": "https://github.com/szymonkaliski/pex-exp-curl-noise",
   "repository": {
